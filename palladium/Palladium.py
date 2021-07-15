@@ -1,6 +1,4 @@
 from PyQt5 import QtCore, QtGui, QtWidgets, QtWebEngineWidgets
-import concurrent.futures
-import threading
 import os
 import cnn
 
@@ -55,7 +53,7 @@ result_page=r'''<!DOCTYPE html>
             }</style></head>
             <body>
                 <div align="center" style="font-size:30px;font-family:Arial"><b>Upload the x-ray image of your chest</b></div><br><a href="#" download><div align="center" style="font-size:20px;font-family:Arial">Click here to choose a file</div></a><br>
-           <br><div align="center" style="font-size:20px;font-family:Arial"><b>report_and_i_will_replace_it</b></div><br><div align="center" style="font-size:20px;font-family:Arial"><b>symptoms_and_i_will_replace_it</b></div>
+           <br><div style="font-size:20px;font-family:Arial"><b>report_and_i_will_replace_it</b></div><br><div  style="font-size:20px;font-family:Arial"><b>symptoms_and_i_will_replace_it</b></div>
             </body></html>'''
 
 
