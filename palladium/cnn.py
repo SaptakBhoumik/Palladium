@@ -7,7 +7,6 @@ from io import open
 from PIL import Image
 import glob
 
-pred_path='./dataset/test/COVID19'
 
 #categories
 classes=['COVID19', 'NORMAL', 'PNEUMONIA']
