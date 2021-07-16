@@ -15,4 +15,4 @@ Start the application using the following command<br>
 ```python3 Palladium.py```
 
 You should get something like this<br>
-<p align="center"><img src="https://raw.githubusercontent.com/SaptakBhoumik/Palladium/master/screenshot/ss.png" width="200px"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/SaptakBhoumik/Palladium/master/screenshot/ss.png" width="2000px"></p>
