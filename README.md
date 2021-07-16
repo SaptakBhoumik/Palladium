@@ -25,6 +25,9 @@ First clone this repository. After that <a href="https://github.com/SaptakBhoumi
 - The model takes less than 5 seconds to predict the results
 - Easy to use
 
+## Dataset used
+- <a href="https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia">Chest X-ray (Covid-19 & Pneumonia) by Prashant Patel </a>
+
 ## How to contribute
 Since it is a free software, you can contribute to make it better. New contributors are always welcome, whether you write code, create resources, report bugs, or suggest features.
 
