@@ -1,0 +1,6 @@
+numpy
+torch==1.9.0
+torchvision==0.10.0
+PyQt5
+PyQtWebEngine
+Pillow
