@@ -84,7 +84,7 @@ class ConvNet(nn.Module):
         return output
 
 
-checkpoint=torch.load('lung_disease_detection_model.pth')
+checkpoint=torch.load('xray_lung_disease_detection_model.pth')
 model=ConvNet(num_classes=len(classes))
 model.load_state_dict(checkpoint)
 model.eval()
