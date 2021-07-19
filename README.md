@@ -40,6 +40,9 @@ Have a look at the [open issues](https://github.com/SaptakBhoumik/Palladium/issu
 
 Please check [CONTRIBUTING.md](https://github.com/SaptakBhoumik/Palladium/blob/master/CONTRIBUTING.md) to know how you can contribute 
 
+## Contact
+Contact me via email - saptakbhoumik@gmail.com
+
 ## License
 Palladium is lisenced under GNU General Public License v3.0
 
