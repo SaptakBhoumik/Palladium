@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  
+  
+<style>
+.upload-btn-wrapper {
+
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+    background-color: #4cabff;
+    color: white;
+    padding: 14px 25px;
+    width: 300px;
+    text-align: center;
+    border-radius:30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+ 
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+#center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+</style>
+
+
+
+</head>
+
+<body translate="no" >
+  <a href="/lungs"><img src="{{url_for('static', filename='arrow.png')}}" width="20px" height="20px" ></a>
+<div align="center" style="font-size:30px;font-family:Arial;color:#4cabff"><b>Upload the ct-scan image of your chest</b></div><br>
+  <div class="upload-btn-wrapper" id="center">
+  <button class="btn">Click here to choose a file</button>
+  <form method="POST" action="/lungs_ctscan"  enctype="multipart/form-data">
+  <input type="file" name="file" id="file" onchange="form.submit()"/></form>
+</div>  
+
+</body>
+
+</html>
+ 
