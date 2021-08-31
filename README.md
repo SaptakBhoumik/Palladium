@@ -1,3 +1,4 @@
+Please check out my  [latest project](https://github.com/Swallow-lang/swallow) => https://github.com/Swallow-lang/swallow
 # Palladium
 <p align="center"><img src="https://raw.githubusercontent.com/SaptakBhoumik/Palladium/master/palladium/images/source.jpeg" width="200px"></p>
 
